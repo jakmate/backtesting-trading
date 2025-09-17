@@ -5,9 +5,7 @@ import pandas as pd
 import numpy as np
 import requests
 import yfinance as yf
-import pandas_datareader.data as web
 import matplotlib.pyplot as plt
-import random
 from alpaca_trade_api.rest import REST
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
